@@ -6,7 +6,7 @@ ARG FREEDOS_IMAGE=https://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distr
 # Set up system prerequisites
 RUN apt update
 RUN apt -yq install qemu-utils qemu-system-x86
-RUN apt -yq install unzip curl fdisk libguestfs-tools
+RUN apt -yq install unzip curl fdisk libguestfs-tools dos2unix
 
 # grab freedos
 RUN mkdir freedos

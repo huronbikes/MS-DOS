@@ -9,4 +9,4 @@ rem BAKROOT points to the home drive/directory of the sources.
 set LIB=%BAKROOT%\src\tools\lib
 set INIT=%BAKROOT%\src\tools
 set INCLUDE=%BAKROOT%\src\tools\inc
-set PATH=%BAKROOT%\src\tools
+set PATH=%dosdir%\BIN;%BAKROOT%\src\tools
